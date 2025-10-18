@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Портфолио - wedding rave</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css?v=21" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<style id="final-visibility-overrides">
+  :root{
+    --text-dark:#1a1a1a;
+    --text-light:#F8F5F0;
+  }
+  /* Make sure animations never leave text invisible on iOS */
+  @supports (-webkit-touch-callout: none){
+    .fade-in-up,.fade-in-left,.fade-in-right,.scale-in{opacity:1!important;transform:none!important;}
+  }
+  /* Dark sections — light text */
+  .hero,.stats-section,.values-section,.cta-section,.footer{color:var(--text-light)!important;}
+  .hero *,.stats-section *,.values-section *,.cta-section *,.footer *{color:inherit!important;}
+  /* Light sections & cards — dark text */
+  .page-header,.team-section,.services-section,.contact-info,.contact-form-section,
+  .portfolio-stats,.faq-section,.service-card,.review-card,.review-item,.overall-rating,
+  .map-section,.additional-services,.additional-card,.all-reviews,.portfolio-filter,
+  .view-project,.contact-card,.story-content,.about-content,.team-content{color:var(--text-dark)!important;}
+  .page-header *,.team-section *,.services-section *,.contact-info *,.contact-form-section *,
+  .portfolio-stats *,.faq-section *,.service-card *,.review-card *,.review-item *,.overall-rating *,
+  .map-section *,.additional-services *,.additional-card *,.all-reviews *,.portfolio-filter *,
+  .view-project *,.contact-card *,.story-content *,.about-content *,.team-content *{color:inherit!important;}
+  /* Stats numbers inherit */
+  .stat-number,.stat-label{color:inherit!important;text-shadow:none!important;}
+  /* Navbar brand readable */
+  .nav-logo a{color:#fff!important;}
+  /* Footer social compact icons */
+  .footer-social .social-link{width:44px;height:44px;border-radius:50%;font-size:0;}
+  .footer-social .social-link i,.footer-social .social-link svg{font-size:22px;width:22px;height:22px;}
+  /* Contact social pills */
+  .social-icons{display:flex;gap:12px;flex-wrap:wrap;}
+  .social-icons .social-link{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:9999px;background:var(--color-accent-gold);color:#000!important;border-color:var(--color-accent-gold);width:auto;height:auto;}
+  .social-icons .social-link i,.social-icons .social-link svg{font-size:18px;width:18px;height:18px;}
+  .social-icons .social-link span{display:inline;}
+</style>
+</head>
+<body class="portfolio-page">
+<!-- Navigation -->
+<nav class="navbar">
+<div class="nav-container">
+<div class="nav-logo">
+<a href="index.html">wedding rave</a>
+</div>
+<div class="nav-menu" id="nav-menu">
+<a class="nav-link" href="index.html">Главная</a>
+<a class="nav-link" href="about.html">О нас</a>
+<a class="nav-link" href="services.html">Услуги</a>
+<a class="nav-link active" href="portfolio.html">Портфолио</a>
+<a class="nav-link" href="reviews.html">Отзывы</a>
+<a class="nav-link" href="contacts.html">Контакты</a>
+</div>
+<div class="nav-toggle" id="nav-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+</div>
+</nav>
+<!-- Page Header -->
+<section class="page-header">
+<div class="container">
+<h1 class="page-title">ПОРТФОЛИО</h1>
+<p class="page-subtitle">Наши лучшие работы и вдохновляющие проекты</p>
+</div>
+</section>
+<!-- Portfolio Filter -->
+<section class="portfolio-filter">
+<div class="container">
+<div class="filter-buttons">
+<button class="active filter-btn" data-filter="anna-ildar">Анна и Ильдар</button>
+<button class="filter-btn" data-filter="alexandr-alexandra">Александр и Александра</button>
+<button class="filter-btn" data-filter="alexandra-mikhail">Александра и Михаил</button>
+<button class="filter-btn" data-filter="dasha-nikita">Даша и Никита</button><button class="filter-btn" data-filter="anna-andrey">Анна и Андрей</button>
+</div>
+</div>
+</section>
+<!-- Portfolio Grid -->
+<section class="portfolio-grid">
+<div class="container masonry-grid">
+<div class="portfolio-items">
+<!-- Wedding Project 1 -->
+<!-- Wedding Project 2 -->
+<!-- Wedding Project 3 -->
+<!-- Corporate Event -->
+<!-- Birthday Party -->
+<!-- Other Event -->
+<!-- Additional Projects -->
+<!-- Another Event -->
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-001-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-001-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-001-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-001-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-002-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-002-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-002-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-002-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-003-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-003-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-003-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-003-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-004-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-004-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-004-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-004-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-005-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-005-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-005-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-005-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-006-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-006-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-006-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-006-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-007-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-007-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-007-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-007-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-008-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-008-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-008-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-008-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-009-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-009-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-009-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-009-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-010-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-010-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-010-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-010-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-011-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-011-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-011-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-011-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-012-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-012-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-012-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-012-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-013-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-013-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-013-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-013-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-014-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-014-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-014-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-014-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-015-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-015-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-015-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-015-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-016-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-016-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-016-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-016-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-017-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-017-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-017-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-017-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-018-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-018-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-018-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-018-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-019-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-019-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-019-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-019-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-020-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-020-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-020-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-020-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-021-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-021-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-021-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-021-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-022-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-022-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-022-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-022-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-023-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-023-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-023-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-023-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-024-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-024-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-024-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-024-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-025-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-025-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-025-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-025-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-026-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-026-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-026-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-026-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-027-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-027-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-027-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-027-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-028-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-028-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-028-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-028-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-029-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-029-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-029-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-029-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-030-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-030-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-030-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-030-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-031-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-031-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-031-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-031-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-032-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-032-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-032-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-032-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-033-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-033-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-033-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-033-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-034-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-034-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-034-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-034-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-035-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-035-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-035-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-035-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandr-alexandra"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александр и Александра" href="alexandr-alexandra/web/alexandr-alexandra-036-1600.jpg"><img alt="Александр и Александра" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandr-alexandra/thumbs/alexandr-alexandra-036-480.jpg" srcset="alexandr-alexandra/thumbs/alexandr-alexandra-036-480.jpg 480w, alexandr-alexandra/web/alexandr-alexandra-036-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-001-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-001-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-001-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-001-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-002-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-002-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-002-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-002-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-003-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-003-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-003-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-003-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-004-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-004-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-004-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-004-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-005-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-005-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-005-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-005-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-006-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-006-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-006-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-006-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-007-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-007-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-007-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-007-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-008-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-008-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-008-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-008-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-009-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-009-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-009-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-009-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-010-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-010-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-010-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-010-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-011-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-011-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-011-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-011-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-012-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-012-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-012-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-012-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-013-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-013-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-013-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-013-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-014-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-014-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-014-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-014-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-015-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-015-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-015-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-015-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-016-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-016-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-016-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-016-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-017-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-017-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-017-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-017-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-018-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-018-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-018-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-018-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-019-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-019-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-019-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-019-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-020-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-020-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-020-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-020-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-021-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-021-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-021-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-021-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-022-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-022-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-022-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-022-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-023-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-023-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-023-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-023-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-024-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-024-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-024-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-024-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-025-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-025-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-025-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-025-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-026-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-026-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-026-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-026-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-027-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-027-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-027-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-027-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-028-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-028-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-028-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-028-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-029-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-029-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-029-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-029-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-030-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-030-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-030-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-030-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-031-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-031-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-031-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-031-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-032-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-032-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-032-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-032-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-033-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-033-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-033-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-033-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-034-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-034-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-034-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-034-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-035-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-035-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-035-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-035-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-036-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-036-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-036-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-036-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-037-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-037-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-037-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-037-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+<div class="portfolio-item" data-category="alexandra-mikhail"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Александра и Михаил" href="alexandra-mikhail/web/alexandra-mikhail-038-1600.jpg"><img alt="Александра и Михаил" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="alexandra-mikhail/thumbs/alexandra-mikhail-038-480.jpg" srcset="alexandra-mikhail/thumbs/alexandra-mikhail-038-480.jpg 480w, alexandra-mikhail/web/alexandra-mikhail-038-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div>
+</div>
+<div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-001-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-001-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-001-480.jpg 480w, anna-ildar/web/anna-ildar-001-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-002-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-002-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-002-480.jpg 480w, anna-ildar/web/anna-ildar-002-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-003-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-003-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-003-480.jpg 480w, anna-ildar/web/anna-ildar-003-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-004-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-004-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-004-480.jpg 480w, anna-ildar/web/anna-ildar-004-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-005-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-005-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-005-480.jpg 480w, anna-ildar/web/anna-ildar-005-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-006-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-006-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-006-480.jpg 480w, anna-ildar/web/anna-ildar-006-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-007-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-007-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-007-480.jpg 480w, anna-ildar/web/anna-ildar-007-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-008-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-008-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-008-480.jpg 480w, anna-ildar/web/anna-ildar-008-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-009-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-009-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-009-480.jpg 480w, anna-ildar/web/anna-ildar-009-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-010-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-010-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-010-480.jpg 480w, anna-ildar/web/anna-ildar-010-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-011-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-011-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-011-480.jpg 480w, anna-ildar/web/anna-ildar-011-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-012-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-012-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-012-480.jpg 480w, anna-ildar/web/anna-ildar-012-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-013-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-013-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-013-480.jpg 480w, anna-ildar/web/anna-ildar-013-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-014-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-014-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-014-480.jpg 480w, anna-ildar/web/anna-ildar-014-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-015-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-015-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-015-480.jpg 480w, anna-ildar/web/anna-ildar-015-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-016-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-016-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-016-480.jpg 480w, anna-ildar/web/anna-ildar-016-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-017-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-017-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-017-480.jpg 480w, anna-ildar/web/anna-ildar-017-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-018-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-018-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-018-480.jpg 480w, anna-ildar/web/anna-ildar-018-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-019-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-019-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-019-480.jpg 480w, anna-ildar/web/anna-ildar-019-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-020-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-020-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-020-480.jpg 480w, anna-ildar/web/anna-ildar-020-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-021-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-021-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-021-480.jpg 480w, anna-ildar/web/anna-ildar-021-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-022-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-022-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-022-480.jpg 480w, anna-ildar/web/anna-ildar-022-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-023-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-023-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-023-480.jpg 480w, anna-ildar/web/anna-ildar-023-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-024-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-024-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-024-480.jpg 480w, anna-ildar/web/anna-ildar-024-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-025-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-025-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-025-480.jpg 480w, anna-ildar/web/anna-ildar-025-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-026-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-026-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-026-480.jpg 480w, anna-ildar/web/anna-ildar-026-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-027-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-027-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-027-480.jpg 480w, anna-ildar/web/anna-ildar-027-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-028-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-028-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-028-480.jpg 480w, anna-ildar/web/anna-ildar-028-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-029-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-029-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-029-480.jpg 480w, anna-ildar/web/anna-ildar-029-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-030-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-030-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-030-480.jpg 480w, anna-ildar/web/anna-ildar-030-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-031-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-031-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-031-480.jpg 480w, anna-ildar/web/anna-ildar-031-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-032-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-032-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-032-480.jpg 480w, anna-ildar/web/anna-ildar-032-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-033-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-033-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-033-480.jpg 480w, anna-ildar/web/anna-ildar-033-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-034-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-034-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-034-480.jpg 480w, anna-ildar/web/anna-ildar-034-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-035-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-035-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-035-480.jpg 480w, anna-ildar/web/anna-ildar-035-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-036-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-036-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-036-480.jpg 480w, anna-ildar/web/anna-ildar-036-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-037-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-037-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-037-480.jpg 480w, anna-ildar/web/anna-ildar-037-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-038-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-038-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-038-480.jpg 480w, anna-ildar/web/anna-ildar-038-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-039-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-039-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-039-480.jpg 480w, anna-ildar/web/anna-ildar-039-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-040-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-040-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-040-480.jpg 480w, anna-ildar/web/anna-ildar-040-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-041-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-041-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-041-480.jpg 480w, anna-ildar/web/anna-ildar-041-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-ildar"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Илдар" href="anna-ildar/web/anna-ildar-042-1600.jpg"><img alt="Анна и Илдар" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-ildar/thumbs/anna-ildar-042-480.jpg" srcset="anna-ildar/thumbs/anna-ildar-042-480.jpg 480w, anna-ildar/web/anna-ildar-042-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-001-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-001-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-001-480.jpg 480w, dasha-nikita/web/dasha-nikita-001-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-002-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-002-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-002-480.jpg 480w, dasha-nikita/web/dasha-nikita-002-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-003-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-003-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-003-480.jpg 480w, dasha-nikita/web/dasha-nikita-003-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-004-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-004-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-004-480.jpg 480w, dasha-nikita/web/dasha-nikita-004-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-005-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-005-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-005-480.jpg 480w, dasha-nikita/web/dasha-nikita-005-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-006-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-006-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-006-480.jpg 480w, dasha-nikita/web/dasha-nikita-006-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-007-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-007-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-007-480.jpg 480w, dasha-nikita/web/dasha-nikita-007-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-008-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-008-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-008-480.jpg 480w, dasha-nikita/web/dasha-nikita-008-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-009-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-009-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-009-480.jpg 480w, dasha-nikita/web/dasha-nikita-009-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-010-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-010-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-010-480.jpg 480w, dasha-nikita/web/dasha-nikita-010-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-011-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-011-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-011-480.jpg 480w, dasha-nikita/web/dasha-nikita-011-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-012-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-012-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-012-480.jpg 480w, dasha-nikita/web/dasha-nikita-012-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-013-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-013-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-013-480.jpg 480w, dasha-nikita/web/dasha-nikita-013-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-014-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-014-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-014-480.jpg 480w, dasha-nikita/web/dasha-nikita-014-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-015-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-015-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-015-480.jpg 480w, dasha-nikita/web/dasha-nikita-015-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-016-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-016-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-016-480.jpg 480w, dasha-nikita/web/dasha-nikita-016-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-017-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-017-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-017-480.jpg 480w, dasha-nikita/web/dasha-nikita-017-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="dasha-nikita"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Даша и Никита" href="dasha-nikita/web/dasha-nikita-018-1600.jpg"><img alt="Даша и Никита" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="dasha-nikita/thumbs/dasha-nikita-018-480.jpg" srcset="dasha-nikita/thumbs/dasha-nikita-018-480.jpg 480w, dasha-nikita/web/dasha-nikita-018-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-001-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-001-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-001-480.jpg 480w, anna-andrey/web/anna-andrey-001-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-002-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-002-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-002-480.jpg 480w, anna-andrey/web/anna-andrey-002-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-003-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-003-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-003-480.jpg 480w, anna-andrey/web/anna-andrey-003-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-004-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-004-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-004-480.jpg 480w, anna-andrey/web/anna-andrey-004-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-005-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-005-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-005-480.jpg 480w, anna-andrey/web/anna-andrey-005-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-006-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-006-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-006-480.jpg 480w, anna-andrey/web/anna-andrey-006-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-007-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-007-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-007-480.jpg 480w, anna-andrey/web/anna-andrey-007-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-008-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-008-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-008-480.jpg 480w, anna-andrey/web/anna-andrey-008-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-009-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-009-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-009-480.jpg 480w, anna-andrey/web/anna-andrey-009-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-010-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-010-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-010-480.jpg 480w, anna-andrey/web/anna-andrey-010-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-011-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-011-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-011-480.jpg 480w, anna-andrey/web/anna-andrey-011-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-012-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-012-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-012-480.jpg 480w, anna-andrey/web/anna-andrey-012-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-013-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-013-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-013-480.jpg 480w, anna-andrey/web/anna-andrey-013-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-014-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-014-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-014-480.jpg 480w, anna-andrey/web/anna-andrey-014-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-015-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-015-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-015-480.jpg 480w, anna-andrey/web/anna-andrey-015-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-016-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-016-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-016-480.jpg 480w, anna-andrey/web/anna-andrey-016-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-017-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-017-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-017-480.jpg 480w, anna-andrey/web/anna-andrey-017-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-018-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-018-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-018-480.jpg 480w, anna-andrey/web/anna-andrey-018-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-019-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-019-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-019-480.jpg 480w, anna-andrey/web/anna-andrey-019-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-020-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-020-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-020-480.jpg 480w, anna-andrey/web/anna-andrey-020-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-021-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-021-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-021-480.jpg 480w, anna-andrey/web/anna-andrey-021-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-022-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-022-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-022-480.jpg 480w, anna-andrey/web/anna-andrey-022-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-023-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-023-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-023-480.jpg 480w, anna-andrey/web/anna-andrey-023-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-024-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-024-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-024-480.jpg 480w, anna-andrey/web/anna-andrey-024-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-025-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-025-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-025-480.jpg 480w, anna-andrey/web/anna-andrey-025-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-026-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-026-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-026-480.jpg 480w, anna-andrey/web/anna-andrey-026-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-027-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-027-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-027-480.jpg 480w, anna-andrey/web/anna-andrey-027-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-028-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-028-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-028-480.jpg 480w, anna-andrey/web/anna-andrey-028-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-029-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-029-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-029-480.jpg 480w, anna-andrey/web/anna-andrey-029-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-030-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-030-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-030-480.jpg 480w, anna-andrey/web/anna-andrey-030-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-031-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-031-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-031-480.jpg 480w, anna-andrey/web/anna-andrey-031-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-032-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-032-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-032-480.jpg 480w, anna-andrey/web/anna-andrey-032-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-033-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-033-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-033-480.jpg 480w, anna-andrey/web/anna-andrey-033-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div><div class="portfolio-item" data-category="anna-andrey"><div class="portfolio-image"><a class="lb-item" data-lightbox="portfolio" data-title="Анна и Андрей" href="anna-andrey/web/anna-andrey-034-1600.jpg"><img alt="Анна и Андрей" decoding="async" loading="lazy" sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 600px" src="anna-andrey/thumbs/anna-andrey-034-480.jpg" srcset="anna-andrey/thumbs/anna-andrey-034-480.jpg 480w, anna-andrey/web/anna-andrey-034-1600.jpg 1600w"/></a><div class="portfolio-overlay"></div></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Project modal removed -->
+<!-- CTA Section -->
+<section class="cta-section">
+<div class="container">
+<div class="cta-content">
+<h2>ВДОХНОВИЛИСЬ НАШИМИ РАБОТАМИ?</h2>
+<p>Давайте создадим что-то особенное и для вас</p>
+<a class="btn btn-primary btn-large" href="contacts.html">
+                    ОБСУДИТЬ ВАШ ПРОЕКТ
+                    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-logo">
+<h3>wedding rave</h3>
+<p>Организация свадеб мечты</p>
+
+
+</div>
+<div class="footer-links">
+<a href="about.html">О нас</a>
+<a href="services.html">Услуги</a>
+<a href="portfolio.html">Портфолио</a>
+<a href="contacts.html">Контакты</a>
+</div>
+
+
+
+
+
+
+
+
+<div class="footer-social">
+<a aria-label="Instagram" class="social-link" href="https://www.instagram.com/wedding_rave?igsh=MWFwcXN5NXZ1Y2N0dw==" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a>
+<a class="social-link" href="https://wa.me/89104656880" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a class="social-link" href="https://t.me/kashirskayaalla" target="_blank"><i class="fab fa-telegram-plane"></i></a></div>
+</div>
+<div class="footer-bottom">
+<p>© 2025 wedding rave. Все права защищены.</p>
+</div>
+</div>
+</footer>
+<script src="script.js?v=15"></script>
+<!-- Custom Lightbox Modal -->
+<script>
+// МАКСИМАЛЬНО НАДЕЖНЫЙ LIGHTBOX
+(function() {
+    'use strict';
+    
+    let lightboxInitialized = false;
+    let modal = null;
+    let images = [];
+    let currentIndex = 0;
+    
+    // Функция инициализации
+    function initLightbox() {
+        if (lightboxInitialized) return;
+        
+        console.log('🚀 Инициализация максимально надежного lightbox...');
+        
+        // Создаем модальное окно
+        modal = document.createElement('div');
+        modal.id = 'lightbox-modal';
+        modal.className = 'lightbox-modal';
+        modal.innerHTML = `
+            <div class="lightbox-content">
+                <img class="lightbox-image" src="" alt="Просмотр изображения">
+                <button class="lightbox-prev" onclick="window.lightboxPrev()">‹</button>
+                <button class="lightbox-next" onclick="window.lightboxNext()">›</button>
+                <button class="lightbox-close" onclick="window.lightboxClose()">×</button>
+                <div class="lightbox-counter">1 / 1</div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+        console.log('✅ Модальное окно создано');
+        
+        // Находим ВСЕ изображения разными способами
+        const selectors = [
+            '.portfolio-image a',
+            '.portfolio-item a',
+            'a[data-lightbox]',
+            'a[href*=".jpg"]',
+            'a[href*=".jpeg"]',
+            'a[href*=".png"]',
+            'a[href*=".webp"]'
+        ];
+        
+        images = [];
+        selectors.forEach(selector => {
+            const found = document.querySelectorAll(selector);
+            found.forEach(img => {
+                if (!images.includes(img)) {
+                    images.push(img);
+                }
+            });
+        });
+        
+        console.log('📸 Найдено изображений:', images.length);
+        
+        // Глобальные функции
+        window.lightboxOpen = function(index) {
+            console.log('🔓 Открытие lightbox, индекс:', index);
+            if (!modal || !images[index]) return;
+            
+            currentIndex = index;
+            const imageSrc = images[currentIndex].getAttribute('href');
+            const imageElement = modal.querySelector('.lightbox-image');
+            const counterElement = modal.querySelector('.lightbox-counter');
+            
+            imageElement.src = imageSrc;
+            counterElement.textContent = (currentIndex + 1) + ' / ' + images.length;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        };
+        
+        window.lightboxClose = function() {
+            console.log('🔒 Закрытие lightbox');
+            if (!modal) return;
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        };
+        
+        window.lightboxPrev = function() {
+            console.log('⬅️ Предыдущее изображение');
+            if (!modal || images.length === 0) return;
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            const imageSrc = images[currentIndex].getAttribute('href');
+            const imageElement = modal.querySelector('.lightbox-image');
+            const counterElement = modal.querySelector('.lightbox-counter');
+            
+            imageElement.src = imageSrc;
+            counterElement.textContent = (currentIndex + 1) + ' / ' + images.length;
+        };
+        
+        window.lightboxNext = function() {
+            console.log('➡️ Следующее изображение');
+            if (!modal || images.length === 0) return;
+            currentIndex = (currentIndex + 1) % images.length;
+            const imageSrc = images[currentIndex].getAttribute('href');
+            const imageElement = modal.querySelector('.lightbox-image');
+            const counterElement = modal.querySelector('.lightbox-counter');
+            
+            imageElement.src = imageSrc;
+            counterElement.textContent = (currentIndex + 1) + ' / ' + images.length;
+        };
+        
+        // Добавляем обработчики ВСЕМИ способами
+        images.forEach(function(image, index) {
+            console.log('🔗 Добавление обработчика для изображения', index);
+            
+            // Обработчик на ссылку
+            image.addEventListener('click', function(e) {
+                console.log('🖱️ Клик по ссылке, индекс:', index);
+                e.preventDefault();
+                e.stopPropagation();
+                window.lightboxOpen(index);
+            });
+            
+            // Обработчик на изображение внутри ссылки
+            const img = image.querySelector('img');
+            if (img) {
+                img.addEventListener('click', function(e) {
+                    console.log('🖱️ Клик по изображению, индекс:', index);
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.lightboxOpen(index);
+                });
+            }
+        });
+        
+        // Обработчик на весь контейнер портфолио
+        const portfolioContainer = document.querySelector('.portfolio-items');
+        if (portfolioContainer) {
+            portfolioContainer.addEventListener('click', function(e) {
+                const clickedImage = e.target.closest('a');
+                if (clickedImage && images.includes(clickedImage)) {
+                    const index = images.indexOf(clickedImage);
+                    console.log('🖱️ Клик по контейнеру, индекс:', index);
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.lightboxOpen(index);
+                }
+            });
+        }
+        
+        // Закрытие по клику на фон
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                window.lightboxClose();
+            }
+        });
+        
+        // Обработка клавиатуры
+        document.addEventListener('keydown', function(e) {
+            if (!modal || !modal.classList.contains('active')) return;
+            
+            switch(e.key) {
+                case 'Escape':
+                    window.lightboxClose();
+                    break;
+                case 'ArrowLeft':
+                    window.lightboxPrev();
+                    break;
+                case 'ArrowRight':
+                    window.lightboxNext();
+                    break;
+            }
+        });
+        
+        lightboxInitialized = true;
+        console.log('✅ Lightbox полностью инициализирован!');
+    }
+    
+    // Множественные способы запуска
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initLightbox);
+    } else {
+        initLightbox();
+    }
+    
+    window.addEventListener('load', function() {
+        setTimeout(initLightbox, 100);
+    });
+    
+    // Принудительная инициализация через 1 секунду
+    setTimeout(initLightbox, 1000);
+    
+    // Принудительная инициализация через 3 секунды
+    setTimeout(initLightbox, 3000);
+    
+    console.log('🚀 Lightbox скрипт загружен и готов к работе!');
+})();
+</script>
+</body>
+</html>

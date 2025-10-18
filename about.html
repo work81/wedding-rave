@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>О нас - wedding rave</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css?v=21" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<style id="final-visibility-overrides">
+  :root{
+    --text-dark:#1a1a1a;
+    --text-light:#F8F5F0;
+  }
+  /* Make sure animations never leave text invisible on iOS */
+  @supports (-webkit-touch-callout: none){
+    .fade-in-up,.fade-in-left,.fade-in-right,.scale-in{opacity:1!important;transform:none!important;}
+  }
+  /* Dark sections — light text */
+  .hero,.stats-section,.values-section,.cta-section,.footer{color:var(--text-light)!important;}
+  .hero *,.stats-section *,.values-section *,.cta-section *,.footer *{color:inherit!important;}
+  /* Light sections & cards — dark text */
+  .page-header,.team-section,.services-section,.contact-info,.contact-form-section,
+  .portfolio-stats,.faq-section,.service-card,.review-card,.review-item,.overall-rating,
+  .map-section,.additional-services,.additional-card,.all-reviews,.portfolio-filter,
+  .view-project,.contact-card,.story-content,.about-content,.team-content{color:var(--text-dark)!important;}
+  .page-header *,.team-section *,.services-section *,.contact-info *,.contact-form-section *,
+  .portfolio-stats *,.faq-section *,.service-card *,.review-card *,.review-item *,.overall-rating *,
+  .map-section *,.additional-services *,.additional-card *,.all-reviews *,.portfolio-filter *,
+  .view-project *,.contact-card *,.story-content *,.about-content *,.team-content *{color:inherit!important;}
+  /* Stats numbers inherit */
+  .stat-number,.stat-label{color:inherit!important;text-shadow:none!important;}
+  /* Navbar brand readable */
+  .nav-logo a{color:#fff!important;}
+  /* Footer social compact icons */
+  .footer-social .social-link{width:44px;height:44px;border-radius:50%;font-size:0;}
+  .footer-social .social-link i,.footer-social .social-link svg{font-size:22px;width:22px;height:22px;}
+  /* Contact social pills */
+  .social-icons{display:flex;gap:12px;flex-wrap:wrap;}
+  .social-icons .social-link{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:9999px;background:var(--color-accent-gold);color:#000!important;border-color:var(--color-accent-gold);width:auto;height:auto;}
+  .social-icons .social-link i,.social-icons .social-link svg{font-size:18px;width:18px;height:18px;}
+  .social-icons .social-link span{display:inline;}
+</style>
+</head>
+<body class="about-page">
+<!-- Navigation -->
+<nav class="navbar">
+<div class="nav-container">
+<div class="nav-logo">
+<a href="index.html">wedding rave</a>
+</div>
+<div class="nav-menu" id="nav-menu">
+<a class="nav-link" href="index.html">Главная</a>
+<a class="nav-link active" href="about.html">О нас</a>
+<a class="nav-link" href="services.html">Услуги</a>
+<a class="nav-link" href="portfolio.html">Портфолио</a>
+<a class="nav-link" href="reviews.html">Отзывы</a>
+<a class="nav-link" href="contacts.html">Контакты</a>
+</div>
+<div class="nav-toggle" id="nav-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+</div>
+</nav>
+<!-- Page Header -->
+<section class="page-header">
+<div class="container">
+<h1 class="page-title">О НАС</h1>
+<p class="page-subtitle">Узнайте больше о команде wedding rave</p>
+</div>
+</section>
+<!-- About Story -->
+<section class="about-story">
+<div class="container">
+<section class="story-section"><div class="section-header fade-in-up">
+<h2 class="section-title">НАША ИСТОРИЯ</h2>
+</div><div class="story-grid"><div class="story-text fade-in-left">
+<h3>О НАС</h3>
+<p>WEDDING RAVE — ЭТО НЕ ПРОСТО СВАДЕБНОЕ АГЕНТСТВО, ЭТО КОМАНДА ПРОФЕССИОНАЛОВ, ИСКРЕННЕ И БЕЗВОЗВРАТНО ВЛЮБЛЕННЫХ В СВОЕ ДЕЛО.
+НАША ИСТОРИЯ RAVE НАЧАЛАСЬ С 2018 ГОДА С СОЗДАНИЯ СОБСТВЕННОЙ ЛОКАЦИИ И ОРГАНИЗАЦИИ НЕБОЛЬШИХ МЕРОПРИЯТИЙ.
+С ТЕХ ПОР МЫ ПРОВЕЛИ ТЫСЯЧИ ПРАЗДНИКОВ И ЗАСЛУЖИЛИ ДОВЕРИЕ НАШИХ КЛИЕНТОВ.
+ЗА ВЕСЬ ПЕРИОД ДЕЯТЕЛЬНОСТИ МЫ ОРГАНИЗОВЫВАЛИ РАЗНЫЕ ПО СВОЕМУ МАСШТАБУ СВАДЬБЫ: ОТ ОЧЕНЬ МАЛЕНЬКОЙ ДО ОЧЕНЬ БОЛЬШОЙ. ДЛЯ КАЖДОЙ ИЗ ЭТИХ ИДЕАЛЬНЫХ СВАДЕБ БЫЛ ОПРЕДЕЛЁН СВОЙ ИНДИВИДУАЛЬНЫЙ БЮДЖЕТ.</p>
+<p>НАША МИССИЯ — ПРЕВРАТИТЬ ВАШИ МЕЧТЫ О ИДЕАЛЬНОЙ СВАДЬБЕ В РЕАЛЬНОСТЬ, СОЗДАВАЯ НЕЗАБЫВАЕМЫЕ МОМЕНТЫ, КОТОРЫЕ ОСТАНУТСЯ В ПАМЯТИ НА ВСЮ ЖИЗНЬ.</p>
+<!-- Services Overview -->
+</div><div class="story-media"><img alt="Коллаж из нашей истории" src="images/history-collage.jpg"/></div></div><div class="services-overview">
+<h4 class="centered-title">НАШИ ОСНОВНЫЕ УСЛУГИ</h4>
+<div class="services-list">
+<div class="service-item service-bg-1">
+<div class="service-info">
+<h5>СВАДЕБНОЕ ПЛАНИРОВАНИЕ</h5>
+<p>Полная организация свадьбы под ключ</p>
+</div>
+</div>
+<div class="service-item service-bg-2">
+<div class="service-info">
+<h5>СТИЛИСТИКА</h5>
+<p>Создание уникальной концепции и дизайна</p>
+</div>
+</div>
+<div class="service-item service-bg-3">
+<div class="service-info">
+<h5>КООРДИНАЦИЯ</h5>
+<p>Профессиональная координация в день события</p>
+</div>
+</div>
+</div>
+</div></section>
+</div></section>
+<!-- Values Section -->
+<section class="values-section">
+<div class="container">
+<div class="section-header fade-in-up">
+<h2 class="section-title">НАШИ ЦЕННОСТИ</h2>
+<p class="section-subtitle">Вступая в брак, вы открываете новую страницу своей жизни, полную любви, радости и незабываемых моментов. Мы разделяем эти ценности и создаем торжества, которые отражают вашу уникальную историю.</p>
+</div>
+<div class="values-grid">
+<div class="value-card fade-in-left">
+<div class="value-icon">
+<i class="fas fa-heart"></i>
+</div>
+<h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+<p>Мы внимательны к каждой мелочи, потому что знаем: именно детали создают магию момента.</p>
+</div>
+<div class="value-card fade-in-up">
+<div class="value-icon">
+<i class="fas fa-star"></i>
+</div>
+<h3>ПРЕМИАЛЬНОЕ КАЧЕСТВО</h3>
+<p>Работаем только с проверенными подрядчиками и используем лучшие материалы для вашего торжества.</p>
+</div>
+<div class="value-card fade-in-right">
+<div class="value-icon">
+<i class="fas fa-users"></i>
+</div>
+<h3>ИНДИВИДУАЛЬНЫЙ ПОДХОД</h3>
+<p>Каждый проект уникален. Мы создаем концепцию, которая отражает именно вашу историю любви.</p>
+</div>
+<div class="value-card fade-in-left">
+<div class="value-icon">
+<i class="fas fa-clock"></i>
+</div>
+<h3>ПУНКТУАЛЬНОСТЬ</h3>
+<p>Ценим ваше время и всегда соблюдаем сроки. Ваша свадьба пройдет точно по плану.</p>
+</div>
+<div class="value-card fade-in-up">
+<div class="value-icon">
+<i class="fas fa-award"></i>
+</div>
+<h3>ПРОФЕССИОНАЛИЗМ</h3>
+<p>Более 8 лет опыта в организации свадеб. Мы знаем все тонкости и нюансы, чтобы ваш день был идеальным.</p>
+</div>
+<div class="value-card fade-in-up">
+<div class="value-icon">
+<i class="fas fa-shield-alt"></i>
+</div>
+<h3>НАДЕЖНОСТЬ</h3>
+<p>Мы берем на себя полную ответственность за организацию вашего торжества. Вы можете быть спокойны за каждый аспект.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="team-section">
+<div class="container">
+<div class="section-header fade-in-up boxed-intro centered-intro">
+<h2 class="section-title">НАША КОМАНДА</h2>
+<p class="section-subtitle">Мы, команда профессионалов, готовы стать вашими надежными партнерами в организации этого важного события, чтобы вы могли полностью насладиться каждым мгновением, не беспокоясь о деталях. Наш опыт работы на рынке свадебных услуг позволяет нам с уверенностью гарантировать безупречное проведение торжества любого масштаба и сложности.</p>
+</div>
+<div class="team-content">
+<div class="team-member scale-in">
+<div class="member-image">
+<img alt="Каширская Алла" src="images/team-alla.jpg"/>
+</div>
+<div class="member-info team-text-gold">
+<h3>КАШИРСКАЯ АЛЛА</h3>
+<p class="member-role">Основатель и главный организатор</p>
+<p>Более 8 лет опыта в организации свадеб и мероприятий. Специалист по созданию уникальных концепций и координации сложных проектов.</p>
+<div class="member-expertise">
+<span class="expertise-tag">Свадебное планирование</span>
+<span class="expertise-tag">Стилистика</span>
+<span class="expertise-tag">Координация</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="stats-section">
+<div class="container">
+<div class="section-header fade-in-up">
+<h2 class="section-title">НАША СТАТИСТИКА</h2>
+</div>
+<div class="stats-grid">
+<div class="stat-item fade-in-up">
+<div class="stat-number">150+</div>
+<div class="stat-label">Свадеб организовано</div>
+</div>
+<div class="stat-item fade-in-up">
+<div class="stat-number">100%</div>
+<div class="stat-label">Довольных клиентов</div>
+</div>
+<div class="stat-item fade-in-up">
+<div class="stat-number">8+</div>
+<div class="stat-label">Лет опыта</div>
+</div>
+<div class="stat-item fade-in-up">
+<div class="stat-number">24/7</div>
+<div class="stat-label">Поддержка клиентов</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="cta-section">
+<div class="container">
+<div class="cta-content fade-in-up">
+<h2>ОТ СВАДЕБНЫХ ДИАЛОГОВ ДО ВОПЛОЩЕНИЯ В СВАДЬБУ МЕЧТЫ</h2>
+<h2>СДЕЛАЕМ ВАШ САМЫЙ ВОЛШЕБНЫЙ ДЕНЬ НЕЗАБЫВАЕМЫМ?</h2>
+<p>Оставьте заявку, и я свяжусь с вами в течение 24 часов</p>
+<a class="btn btn-primary btn-large" href="contacts.html">
+                    ОСТАВИТЬ ЗАЯВКУ
+                    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-logo">
+<h3>wedding rave</h3>
+<p>Организация свадеб мечты</p>
+
+
+</div>
+<div class="footer-links">
+<a href="about.html">О нас</a>
+<a href="services.html">Услуги</a>
+<a href="portfolio.html">Портфолио</a>
+<a href="contacts.html">Контакты</a>
+</div>
+
+
+
+
+
+
+
+
+<div class="footer-social">
+<a aria-label="Instagram" class="social-link" href="https://www.instagram.com/wedding_rave?igsh=MWFwcXN5NXZ1Y2N0dw==" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a>
+<a class="social-link" href="https://wa.me/89104656880" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a class="social-link" href="https://t.me/kashirskayaalla" target="_blank"><i class="fab fa-telegram-plane"></i></a></div>
+</div>
+<div class="footer-bottom">
+<p>© 2025 wedding rave. Все права защищены.</p>
+</div>
+</div>
+</footer>
+<script src="script.js?v=15"></script>
+</body>
+</html>
